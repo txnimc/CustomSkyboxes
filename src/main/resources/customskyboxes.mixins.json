@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "vice.customskyboxes.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "customskyboxes.refmap.json",
+  "mixins": [
+  ],
+  "minVersion": "0.8",
+  "client": [
+    "skybox.FogColorMixin",
+    "skybox.SkyboxRenderMixin",
+    "skybox.SunSkyColorMixin",
+    "skybox.WorldRendererAccess"
+  ]
+}
